@@ -1,20 +1,13 @@
 # Accept a Payment
 
-Build a simple checkout form to collect payment details. Included are some basic
-build and run scripts you can use to start up the application.
-
 ## Running the sample
-
-1. Build the application
-
-~~~
-npm install
-~~~
-
-2. Run the application
+1. まずenvファイルをenv.localから作成する。
+2. ダッシュボードのシークレットキーを転記する
+3. Build the application
 
 ~~~
-npm start
+yarn
+yarn start
 ~~~
 
-3. Go to [http://localhost:3000/checkout](http://localhost:3000/checkout)
+4. localhost:4242が動作すれば完了
